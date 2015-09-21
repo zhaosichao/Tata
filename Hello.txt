@@ -1,0 +1,14 @@
+Hello World!
+
+遇到第一个问题“Commit failed：Failed to create a new commit”
+解决方法
+    1.打开PowerShell窗口，输入 “git add [file name]” 命令提交文件；
+
+    2.输入”git status”命令，查看那些文件被提交，其中绿色标记是提交成功的，红色标记是没有提交成功的；
+
+    3.当所有文件都被提交后，输入”git commit”命令。
+
+  之后，更具提示，配置了 
+  git config user.email 
+  git config user.name 
+  之后，就可以方便的提交了。 
